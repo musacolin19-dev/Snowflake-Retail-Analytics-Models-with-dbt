@@ -1,0 +1,4 @@
+order_id,order_date,store,quantity,unit_price
+1,2026-01-01,HOU,2,25.00
+2,2026-01-01,DAL,1,30.00
+3,2026-01-02,HOU,1,10.00

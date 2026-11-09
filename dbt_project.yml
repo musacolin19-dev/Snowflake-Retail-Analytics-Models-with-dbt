@@ -1,0 +1,11 @@
+name: retail_marts
+version: '1.0.0'
+config-version: 2
+profile: retail_snowflake
+model-paths: [models]
+seed-paths: [seeds]
+models:
+  retail_marts:
+    +materialized: view
+    marts:
+      +materialized: table
